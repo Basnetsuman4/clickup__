@@ -1,0 +1,179 @@
+.Dashboard{
+    /* height: 100vh; */
+    background-color: #454461;
+    width: calc(100vw - 16rem);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 8px;
+}
+.header{
+    height: 4rem;
+    border-bottom: 1px solid rgb(107, 107, 107);
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.optionBtn:hover{
+    cursor: pointer;
+    scale: 0.7;
+}
+.header, .space, .spaceName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.spaceName img{
+    height: 1.7rem;
+}
+.spaceName img:hover{
+    scale: 0.5 2s;
+}
+.title{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.space{
+    /* background-color: red; */
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #454461;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.btn:hover{
+    background-color: rgb(160, 89, 226);
+    color: white;
+}
+.operate{
+    width:18rem;
+    display:flex;
+    justify-content: space-around;
+}
+ 
+.bodySpaceName{
+    padding:30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+
+}
+.bodyTitle{
+    font-size: 26px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    /* color: red; */
+}
+.contentHeader{
+    margin: 2.23rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(107, 107, 107);
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 100%;
+    /* margin: 3rem; */
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 18rem;
+}
+.searchSection input{
+    border:  1px solid rgb(107, 107, 107);
+    background-color: #454461;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgb(107, 107, 107);
+}
+span{
+    font-size: 16px;
+    font-weight: 500;
+    color: ghostwhite;
+}
+.taskBox{
+    height: 70vh;
+    width: auto;
+    /* width: 17rem; */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card{
+    width: 14.6rem;   
+   
+}
+.taskTitle{
+    width: 10rem;
+    background-color: #31304D;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    height:2.5rem ;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid yellow;
+    box-shadow: 1px 2px 6px black;
+}
+.cardList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+.card{
+    width: auto;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #31304D;
+    margin-bottom: 0.5rem;
+}
+.card-title{
+    font-size: 18px;
+}
+.card-text{
+    font-size: 14px;
+}
+.cardList::-webkit-scrollbar {
+    display: none;
+  }
+  .dropdown-menu{
+      background-color: #31304D;
+    }
+    
+    .dropdown-menu a{
+        color: aliceblue;
+    }
