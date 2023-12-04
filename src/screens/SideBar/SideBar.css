@@ -1,0 +1,80 @@
+.SideBar{
+    /* height: 100vh; */
+    width: 16rem;
+    background-color: #31304D;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 8px;
+}
+/****************************************************/
+.NameSection{
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(107, 107, 107);
+}
+.introSection{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.introSection:hover{
+    background-color: #838080;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.fname{
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.burger{
+    color: antiquewhite;
+}
+
+/****************************************************/
+.spaceSection, .NavSection{
+    height: auto;
+    border-bottom: 1px solid rgb(117, 114, 114);
+    color: aliceblue;
+    /* padding-left: 20px; */
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ToBox{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px 0px;
+    padding: 5px ;
+    border-radius: 8px;
+}
+.ToBox:hover{
+    background-color: #838080;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.ToBox .icon{
+    stroke: white;
+    height: 20px;
+}
+.iconTitle{
+    padding-left: 10px;
+}
+
+/****************************************************/
+.spaceSection h5{
+    font-size: 13px;
+    opacity: 0.5;
+}
+/****************************************************/
+.inviteSection{
+    height: 3rem;
+    /* width: inherit; */
+    border-bottom: 1px solid rgb(107, 107, 107);
+    color: aliceblue;
+}
