@@ -1,34 +1,108 @@
 {
     "todos": [
         {
-            "id": 1,
-            "title": "Do Assignment",
-            "description": "Do something nice for someone I care about",
-            "completed": true
+            "id": "td1",
+            "title": "Internet and Intranet",
+            "description": "Complete the network layout."
         },
         {
-            "id": 2,
-            "title": "Do Assignment 2",
-            "description": "Do something nice for someone I care about",
-            "completed": true
+            "id": "td2",
+            "title": "Multimedia",
+            "description": "Research on sound phenomenan"
         },
         {
-            "id": 1,
-            "title": "Do Assignment 3",
-            "description": "Do something nice for someone I care about",
-            "completed": true
+            "id": "td3",
+            "title": "DSAP",
+            "description": "Study the Sampling Frequency"
         },
         {
-            "id": 1,
-            "title": "Do Assignment 4",
-            "description": "Do something nice for someone I care about",
-            "completed": true
+            "id": "td4",
+            "title": "Data Fetching",
+            "description": "Work on APIs"
         },
         {
-            "id": 1,
-            "title": "Do Assignment 5",
-            "description": "Do something nice for someone I care about",
-            "completed": true
+            "id": "td5",
+            "title": "Built UI ",
+            "description": "Develop Ui for the mini project"
+        },
+        {
+            "id": "td6",
+            "title": "Multimedia",
+            "description": "Research on sound phenomenan"
+        },
+        {
+            "id": "td7",
+            "title": "DSAP",
+            "description": "Study the Sampling Frequency"
+        },
+        {
+            "id": "td8",
+            "title": "Data Fetching",
+            "description": "Work on APIs"
+        },
+        {
+            "id": "td9",
+            "title": "Multimedia",
+            "description": "Research on sound phenomenan"
+        },
+        {
+            "id": "td10",
+            "title": "DSAP",
+            "description": "Study the Sampling Frequency"
+        },
+        {
+            "id": "td11",
+            "title": "Data Fetching",
+            "description": "Work on APIs"
+        },
+        {
+            "id": "td12",
+            "title": "Multimedia",
+            "description": "Research on sound phenomenan"
+        },
+        {
+            "id": "td13",
+            "title": "DSAP",
+            "description": "Study the Sampling Frequency"
+        },
+        {
+            "id": "td14",
+            "title": "Data Fetching",
+            "description": "Work on APIs"
+        }
+    ],
+    "inProgress": [
+        {
+            "id": "p1",
+            "title": "Progress ",
+            "description": "Working in the layout."
+        },
+        {
+            "id": "p2",
+            "title": "Progress",
+            "description": "Working in the Backend."
+        },
+        {
+            "id": "p3",
+            "title": "Progress ",
+            "description": "Work on APIs"
+        }
+    ],
+    "completed": [
+        {
+            "id": "c1",
+            "title": "Completed ",
+            "description": "Working in the layout."
+        },
+        {
+            "id": "c2",
+            "title": "Completed ",
+            "description": "Working in the Backend."
+        },
+        {
+            "id": "c3",
+            "title": "Completed ",
+            "description": "Work on APIs"
         }
     ]
 }
