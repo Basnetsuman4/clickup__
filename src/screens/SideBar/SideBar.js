@@ -9,10 +9,20 @@ import { ReactComponent as TeamspaceSVG } from '../../assets/icons/teamspace.svg
 import { ReactComponent as ViewallSVG } from '../../assets/icons/viewall.svg'
 import { ReactComponent as CreateSVG } from '../../assets/icons/createspace.svg'
 import { ReactComponent as InviteSVG } from '../../assets/icons/invite.svg'
-
+import { NavLink } from 'react-router-dom'
 
 
 const SideBar = () => {
+
+    const navLinkStyles = ({ isActive }) => {
+        return {
+            fontWeight: isActive ? 'bold' : 'normal',
+            textDecoration: isActive ? 'none' : 'none',
+            color: isActive ? ' aliceblue' : 'aliceblue',
+        }
+    }
+
+
     return (
         <div className="SideBar">
             <div className='NameSection'>
@@ -23,10 +33,12 @@ const SideBar = () => {
                 {/* <div className='burger'>Ham</div> */}
             </div>
             <div className='NavSection'>
-                <div className='ToBox'>
-                    <HomeSVG className='icon' />
-                    <div className="iconTitle">Home</div>
-                </div>
+                <NavLink style={navLinkStyles} to='/'>
+                    <div className='ToBox'>
+                        <HomeSVG className='icon' />
+                        <div className="iconTitle">Home</div>
+                    </div>
+                </NavLink>
                 <div className='ToBox'>
                     <InboxSVG className='icon' />
                     <div className="iconTitle">Inbox</div>
@@ -73,4 +85,3 @@ const SideBar = () => {
 }
 
 export default SideBar;
-
