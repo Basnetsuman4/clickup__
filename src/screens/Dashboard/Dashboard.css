@@ -60,7 +60,7 @@
 }
  
 .bodySpaceName{
-    padding:30px;
+    padding:18px;
     padding-left: 50px;
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,8 @@
     /* color: red; */
 }
 .contentHeader{
-    margin: 2.23rem;
+    /* margin: 2.23rem; */
+    margin-left: 30px;
     padding-bottom: 8px;
     border-bottom: 1px solid rgb(107, 107, 107);
     display: flex;
@@ -88,10 +89,13 @@
 }
 .content{
     width: 100%;
-    /* margin: 3rem; */
+    height: 100%;
     padding-bottom: 8px;
+    margin-top: 4rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(180, 111, 111); */
 
 }
 .feature{
@@ -114,22 +118,20 @@ span{
 }
 .taskBox{
     height: 70vh;
-    width: auto;
-    /* width: 17rem; */
+    /* width: auto; */
+    width: 17rem;
     padding: 10px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 .card{
     width: 14.6rem;   
-   
 }
 .taskTitle{
-    width: 10rem;
+    width: 100%;
     background-color: #31304D;
     color: aliceblue;
     margin-bottom: 1rem;
@@ -141,16 +143,18 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid yellow;
+    /* border-top: 1px solid yellow; */
     box-shadow: 1px 2px 6px black;
 }
 .cardList{
-    width: 100%;
+    height: 65vh;
+    width: 16rem;
     display: flex;
     flex-direction: column;
-    height: 90%;
+    padding: 10px;
     overflow: scroll;
     overflow-x: hidden;
+    /* background-color: red; */
     
 }
 .card{
@@ -169,11 +173,57 @@ span{
 }
 .cardList::-webkit-scrollbar {
     display: none;
-  }
-  .dropdown-menu{
-      background-color: #31304D;
-    }
-    
-    .dropdown-menu a{
+}
+.dropdown-menu{
+    background-color: #31304D;
+}
+.dropdown-menu a{
         color: aliceblue;
-    }
+}
+.check{
+    background-color:#31304D ;
+}
+ 
+.display{
+    display: flex;
+    flex-direction: row;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2Rem;
+}
+#todo{
+    border-top: 1.5px solid rgb(255, 0, 0);
+}
+#progress{
+    border-top: 1.5px solid yellow;
+}
+#completed{
+    border-top: 1.5px solid green;
+}
+#pushBtn{
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+.BtnBox{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    padding: 5px;
+}
+#comBtn{
+    background-color: green;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
